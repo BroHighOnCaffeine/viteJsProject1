@@ -25,7 +25,8 @@ If you are developing a production application, we recommend using TypeScript wi
 10.  npm run dev - after running this command our project starts and we get a link to the website of our  project
 
 
-Anatomy of React Project.
+# Anatomy of React Project.
+
 # Now 
 1. The index.html is the entry point of our Project.
 2. We have Package.json which includes all Dependencies.
