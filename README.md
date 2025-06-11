@@ -21,7 +21,7 @@ If you are developing a production application, we recommend using TypeScript wi
 6. Enter the Package Name . Or press "." if you want to install it in the same directory
 7. Select a Framework . I've selected React here.
 8. Select a variant - I've Selected Javascript here.
-9.  npm install - installs all the required packages or modeules
+9.  npm install - installs all the dependencies or modeules.
 10.  npm run dev - after running this command our project starts and we get a link to the website of our  project
 
 
