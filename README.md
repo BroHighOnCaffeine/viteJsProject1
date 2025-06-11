@@ -13,22 +13,22 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 # Harshit's Comments
-# Open the Project folder with a terminal and Run the following commands :
-# node -v
-# npm -v
-# npm create vite@latest
-# Enter the Project Name . Or press "." if you want to install it in the same directory
-# Enter the Package Name . Or press "." if you want to install it in the same directory
-# Select a Framework . I've selected React here.
-# Select a variant - I've Selected Javascript here.
-#  npm install - installs all the required packages or modeules
-#  npm run dev - after running this command our project starts and we get a link to the website of our  project
+1. Open the Project folder with a terminal and Run the following commands :
+2. node -v
+3. npm -v
+4. npm create vite@latest
+5. Enter the Project Name . Or press "." if you want to install it in the same directory
+6. Enter the Package Name . Or press "." if you want to install it in the same directory
+7. Select a Framework . I've selected React here.
+8. Select a variant - I've Selected Javascript here.
+9.  npm install - installs all the required packages or modeules
+10.  npm run dev - after running this command our project starts and we get a link to the website of our  project
 
 
 <!-- Anatomy of React Project. -->
 # Now 
-# The index.html is the entry point of our Project.
-# We have Package.json which includes all Dependencies.
-# Then we have vite.config.js ehich has vite-Configurations and lists of Plugins .
+1. The index.html is the entry point of our Project.
+2. We have Package.json which includes all Dependencies.
+3. Then we have vite.config.js ehich has vite-Configurations and lists of Plugins .
 
 
