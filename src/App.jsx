@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/Header'   // Importing this function from the Header.jsx
 import Footer from './Components/Footer'
+import ScrimbaLogo from './assets/Scrimbaimage.png' // Importing the image , here ScrimbaLogo is a name given to the image
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,15 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+
+        {/* placing our Scrimba image just like reactLogo */}
+
+         <a href="https://ScrimbaLogo.com" target="_blank">
+          <img src={ScrimbaLogo} className="logo Scrimba" alt="Scrimba logo" />
+        </a>
+
+
+
       </div>
       <h1>Vite + React</h1>
       <div className="card">

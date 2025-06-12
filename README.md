@@ -25,6 +25,7 @@ If you are developing a production application, we recommend using TypeScript wi
 10.  npm run dev - after running this command our project starts and we get a link to the website of our  project. 
 The server starts and gives the link to our project.
 11. To Stop the server enter 'q' in the terminal 
+12. npm run build - to build the app
  
 
 
@@ -41,8 +42,37 @@ We have added a header to the ui - how we did is in the index.html
 we updated it and we can notice the counter still counts to 3
 Meaning
 The update to the UI didnot blow away to the  application state.
-This is called "Hot Module replacement." over native Js Modules
+This is called "Hot Module Replacement." over native Js Modules
 
 
 #
-We'll add a footer as well
+We'll add a footer as well similar to a header
+
+
+
+
+# Handling Static Assests - images,etc
+
+Here we have 2 ways to handle the static assests - optimize and copy as to
+Optimize works when your file sixe is less than 4kb  . It copies the image with a hash in Name
+copy as to means it will copy the image to project as it is w/o optimization.
+
+Handling a image - Scrimbaimage.png
+import the image in App.jsx using a relative path just like thw react logo 
+And add it as a link in the UI right below the React logo.
+After that we will build the app so we can investigate where vite place file and under which name.
+
+import ScrimbaLogo from './assets/Scrimbaimage.png'
+
+<code>
+Then inside the return function in app.jsx write :
+ <a href="https://ScrimbaLogo.com" target="_blank">
+          <img src={ScrimbaLogo} className="logo Scrimba" alt="Scrimba logo" />
+        </a>
+
+</code>
+
+
+# Use Environmental Varibles
+
+
