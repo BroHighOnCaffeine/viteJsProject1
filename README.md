@@ -22,7 +22,10 @@ If you are developing a production application, we recommend using TypeScript wi
 7. Select a Framework . I've selected React here.
 8. Select a variant - I've Selected Javascript here.
 9.  npm install - installs all the dependencies or modeules.
-10.  npm run dev - after running this command our project starts and we get a link to the website of our  project
+10.  npm run dev - after running this command our project starts and we get a link to the website of our  project. 
+The server starts and gives the link to our project.
+11. To Stop the server enter 'q' in the terminal 
+ 
 
 
 # Anatomy of React Project.
