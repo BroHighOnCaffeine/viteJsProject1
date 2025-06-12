@@ -67,9 +67,9 @@ import ScrimbaLogo from './assets/Scrimbaimage.png'
 <pre>
     <code>
     Then inside the return function in app.jsx write :
-     <a href="https://ScrimbaLogo.com" target="_blank">
-              <img src={ScrimbaLogo} className="logo Scrimba" alt="Scrimba logo" />
-            </a>
+     &lt a href="https://ScrimbaLogo.com" target="_blank" &gt
+              &lt img src={ScrimbaLogo} className="logo Scrimba" alt="Scrimba logo" / &gt
+            &lt /a &gt
 
     </code>
 </pre>
