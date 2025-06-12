@@ -36,3 +36,13 @@ The server starts and gives the link to our project.
 3. Then we have vite.config.js ehich has vite-Configurations and lists of Plugins .
 
 
+#
+We have added a header to the ui - how we did is in the index.html
+we updated it and we can notice the counter still counts to 3
+Meaning
+The update to the UI didnot blow away to the  application state.
+This is called "Hot Module replacement." over native Js Modules
+
+
+#
+We'll add a footer as well
