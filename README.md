@@ -96,7 +96,16 @@ In order to use environmental variables in your code , you access it like this :
             const dbUser = import.meta.env.VITE_DB_USER
 
  
+# Challenge  -
+# Displaying the Ip Addr using the API and by using Env. Var.
 
+1. In '.env' add an environmental variable[VITE_API_URL] for the IPify API URL,
+   and give  it the value https://api.ipify.org 
+2. In app.jsx , grab that environment variable and assign it to 'apiUrl' inside the 'useEffect'.
+3. Finally in the JSX, display the React State variable 'ipAddress' in an h3 , right below the greeting.
+4. Start the Dev Server .
+5. You should be able to see your current IPAddress in the UI.
+ 
 
 
 
