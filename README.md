@@ -105,6 +105,10 @@ In order to use environmental variables in your code , you access it like this :
 3. Finally in the JSX, display the React State variable 'ipAddress' in an h3 , right below the greeting.
 4. Start the Dev Server .
 5. You should be able to see your current IPAddress in the UI.
+
+Here we used Hook - UseEffect
+We use Try Catch Block
+We used an Api 
  
 
 
