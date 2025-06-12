@@ -64,13 +64,15 @@ After that we will build the app so we can investigate where vite place file and
 
 import ScrimbaLogo from './assets/Scrimbaimage.png'
 
-<code>
-Then inside the return function in app.jsx write :
- <a href="https://ScrimbaLogo.com" target="_blank">
-          <img src={ScrimbaLogo} className="logo Scrimba" alt="Scrimba logo" />
-        </a>
+<pre>
+    <code>
+    Then inside the return function in app.jsx write :
+     <a href="https://ScrimbaLogo.com" target="_blank">
+              <img src={ScrimbaLogo} className="logo Scrimba" alt="Scrimba logo" />
+            </a>
 
-</code>
+    </code>
+</pre>
 
 
 # Use Environmental Varibles
