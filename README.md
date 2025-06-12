@@ -77,4 +77,16 @@ import ScrimbaLogo from './assets/Scrimbaimage.png'
 
 # Use Environmental Varibles
 
+import.meta is a web standard  . To it vit adds an object env . And to this object vit provides a number or built-in constants to use.
+Those constants are [BASE_URL , MODE ,DEV ,PROD, SSR]
+
+import.meta.env
+
+1. import.meta.env.BASE_URL -
+2. import.meta.env.MODE - 
+3. import.meta.env.PROD - 
+4. import.meta.env.SSR - 
+
+
+
 
