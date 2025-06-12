@@ -77,15 +77,25 @@ import ScrimbaLogo from './assets/Scrimbaimage.png'
 
 # Use Environmental Varibles
 
-import.meta is a web standard  . To it vit adds an object env . And to this object vit provides a number or built-in constants to use.
-Those constants are [BASE_URL , MODE ,DEV ,PROD, SSR]
+import.meta is a web standard  . To it vit adds an object env . And to this object vit provides a  hat gives the mode the app is running in. This could be development or production or another mode
+3. import.meta.env.PROD & .DEV - It is a BOOLEAN which tells us the app is in development or Production 
+4. import.meta.env.SSR - It's a boolean that tells whether the App is Running in the server.
 
-import.meta.env
 
-1. import.meta.env.BASE_URL -
-2. import.meta.env.MODE - 
-3. import.meta.env.PROD - 
-4. import.meta.env.SSR - 
+Also, VITE grants us access with our own Environmental Variables:
+
+Those could be the one that we pass through the command line 
+Or
+We could provide them in a file named ".env" in the root of your Project
+
+Rule : Each environmental variable must start with the Prefix - "VITE_" , all in UpperCase
+Example : VITE_DB_USER = user
+          VITE_DB_PASSWORD = password
+
+In order to use environmental variables in your code , you access it like this :
+            const dbUser = import.meta.env.VITE_DB_USER
+
+ 
 
 
 

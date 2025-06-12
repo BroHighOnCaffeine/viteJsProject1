@@ -7,6 +7,8 @@ import Footer from './Components/Footer'
 import ScrimbaLogo from './assets/Scrimbaimage.png' // Importing the image , here ScrimbaLogo is a name given to the image
 
 function App() {
+
+    const greeting = import.meta.env.VITE_GREETING   // Importing our Environmental Variable
   const [count, setCount] = useState(0)
 
   return (
@@ -32,6 +34,7 @@ function App() {
 
       </div>
       <h1>Vite + React</h1>
+       <h2>{greeting}</h2>   {/* calling our Environmental Variable. */}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
